@@ -1,0 +1,14 @@
+<!--
+ - Created by vissewo on 31/10/2024.
+ -->
+
+<!-- Gamepad -->
+<template>
+    <lightning-button label="Run Flow" onclick={handleButtonClick} variant="brand"></lightning-button>
+    <lightning-flow class="hideme"
+                     flow-api-name={flowName}
+                     flow-input-variables={inputVariables}
+                     onstatuschange={handleStatusChange}>
+    </lightning-flow>
+
+</template>

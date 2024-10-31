@@ -1,0 +1,7 @@
+<!--
+ - Created by vissewo on 31/10/2024.
+ -->
+
+<design:component>
+    <design:attribute name="cssCode" label="Custom CSS Code" description="Enter CSS code to apply to the flow/page" />
+</design:component>

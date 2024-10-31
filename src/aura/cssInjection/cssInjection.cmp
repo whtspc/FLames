@@ -1,0 +1,14 @@
+<!--
+ - Created by vissewo on 31/10/2024.
+ -->
+
+<aura:component implements="lightning:availableForFlowScreens,force:hasRecordId" access="global">
+    <!-- Attribute to accept custom CSS from Flow -->
+    <aura:attribute name="cssCode" type="String" />
+
+    <!-- Empty div to append style element via JavaScript -->
+    <div aura:id="cssContainer"></div>
+
+    <!-- Handler to run the injection script after initialization -->
+    <aura:handler name="init" value="{!this}" action="{!c.injectCSS}" />
+</aura:component>

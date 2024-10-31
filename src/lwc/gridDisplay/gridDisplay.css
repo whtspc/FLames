@@ -1,0 +1,15 @@
+/**
+ * Created by vissewo on 31/10/2024.
+ */
+.grid-container {
+    display: grid;
+    gap: 8px; /* Adjust spacing between grid items */
+}
+
+.grid-item {
+    display: grid;            /* new */
+    align-items: center;      /* new */
+    justify-items: center;
+    border: 1px solid #ccc;
+    background-color: #000033;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <description>Actionbutton</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Actionbutton</masterLabel>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="flowLabel" type="String" label="Label" role="inputOnly"/>
+            <property name="flowValue" type="String" label="Value" role="inputOnly"/>
+            <property name="lwcValue" type="String" label="Output Value" role="outputOnly" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

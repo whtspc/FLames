@@ -1,0 +1,12 @@
+<!--
+ - Created by vissewo on 31/10/2024.
+ -->
+
+<!-- Grid Display -->
+<template>
+    <div class="grid-container" style={gridStyle}>
+        <template for:each={uniqueItems} for:item="item">
+            <div key={item.id} class="grid-item" lwc:dom="manual" data-index={index}></div>
+        </template>
+    </div>
+</template>

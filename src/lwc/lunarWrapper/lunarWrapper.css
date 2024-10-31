@@ -1,0 +1,10 @@
+/**
+ * Created by vissewo on 06/12/2022.
+ */
+
+.wrapper {
+    --lwc-colorBackgroundLight: black;
+    --sds-c-button-brand-color-background: pink;
+    --sds-c-button-brand-text-color: black;
+    color: white;
+}
