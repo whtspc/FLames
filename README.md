@@ -1,6 +1,6 @@
 # 🔥🔥🔥 FLames 🔥🔥🔥
 
-FLames (FLOW + games) is a unique game jam concept focused on creating games using Salesforce Flow Builder. This repository provides resources, components, and inspiration for building games with Flow, while pushing the boundaries of what's possible with this low-code automation tool.
+FLames (FLOW + games) is a game jam concept focused on creating games using Salesforce Flow Builder. This repository provides resources, components, and inspiration for building games with Flow, while pushing the boundaries of what's possible with this low-code automation tool.
 
 ## What is FLames?
 
