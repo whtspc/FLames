@@ -1,0 +1,13 @@
+<!--
+ - Created by vissewo on 01/11/2024.
+ -->
+
+<!-- Run Autolaunched Flow -->
+<template>
+    <lightning-button label="Run Flow" onclick={handleButtonClick} variant="brand"></lightning-button>
+    <lightning-flow class="hideme"
+                    flow-api-name={flowName}
+                    flow-input-variables={inputVariables}
+                    onstatuschange={handleStatusChange}>
+    </lightning-flow>
+</template>

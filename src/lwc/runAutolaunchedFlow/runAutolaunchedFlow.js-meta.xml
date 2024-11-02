@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <description>Run Autolaunched Flow</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Run Autolaunched Flow</masterLabel>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen" configurationEditor="c-run-autolaunched-flow-c-p-e">
+            <property name="flowName" type="String" label="Flow API Name" />
+            <property name="input" type="String" label="Flow Input Variables" />
+            <property name="output" type="String" label="Output Variable Name" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
