@@ -11,17 +11,19 @@ export default class AutoSub extends LightningElement {
         @api output;
 
         get inputVariables() {
+            console.log(this.input);
             return [
                                {
                                    name: 'input',
                                    type: 'String',
-                                   value: 'Ja'
+                                   value: this.input ? this.input : ''
                                }
                            ];
         }
 
         handleStatusChange(event) {
                 if (event.detail.status === "FINISHED_SCREEN") {
+                    console.log(event.detail.outputVariables[0].value);
                     this.dispatchEvent(new FlowAttributeChangeEvent('output', event.detail.outputVariables[0].value));
                 }
             }
