@@ -3,13 +3,14 @@
  */
 .grid-container {
     display: grid;
-    gap: 8px; /* Adjust spacing between grid items */
+    gap: 0px;
 }
 
 .grid-item {
-    display: grid;            /* new */
-    align-items: center;      /* new */
+    display: grid;
+    align-items: center;
     justify-items: center;
     border: 1px solid #ccc;
-    background-color: #000033;
+    color: white !important;
+    background-color: #014486;
 }
