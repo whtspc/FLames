@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>62.0</apiVersion>
+    <description>Painter</description>
+    <isExposed>true</isExposed>
+    <masterLabel>Painter</masterLabel>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="output" type="String" role="outputOnly" label="Output Value" description="Last image clicked" />
+            <property name="images" type="apex://ImageData[]" label="ImageData collection" description="Collection of ImageData to render" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

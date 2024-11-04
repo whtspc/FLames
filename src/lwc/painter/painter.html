@@ -1,0 +1,19 @@
+<!--
+ - Created by vissewo on 03/11/2024.
+ -->
+
+<!-- Painter -->
+<template>
+        <div class="imagecontainer">
+            <template for:each={images} for:item="image" for:index="index">
+                <img key={image.id} src={image.src}
+                     data-index={index}
+                     data-id={image.id}
+                     style={image.style}
+                     onclick={handleImageClick}
+                />
+            </template>
+        </div>
+
+
+</template>
