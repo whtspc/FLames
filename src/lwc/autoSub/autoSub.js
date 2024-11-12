@@ -7,11 +7,11 @@ import { FlowAttributeChangeEvent } from 'lightning/flowSupport';
 import { Flow } from 'lightning/flowSupport';
 
 export default class AutoSub extends LightningElement {
+        @api flowname;
         @api input;
         @api output;
 
         get inputVariables() {
-            console.log(this.input);
             return [
                                {
                                    name: 'input',

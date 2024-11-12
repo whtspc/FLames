@@ -9,8 +9,9 @@
     </targets>
     <targetConfigs>
         <targetConfig targets="lightning__FlowScreen">
-            <property name="input" type="String" label="Flow Input Variables" />
-            <property name="output" type="String" label="Output Variable Name" />
+            <property name="flowname" type="String" label="Flow Developer Name" />
+            <property name="input" type="String" label="Flow Input String" />
+            <property name="output" role="outputOnly" type="String" label="Output" />
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
