@@ -14,7 +14,7 @@ export default class Counter extends LightningElement {
             this.output = this.output + 1;
             // Force reactivity in Flow by notifying change
             this.notifyOutputChange();
-        }, 500);
+        }, 1000);
     }
 
     disconnectedCallback() {
